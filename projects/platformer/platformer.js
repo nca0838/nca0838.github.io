@@ -72,21 +72,21 @@ createCollectable("database", 1300, 600, 1, 0);
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-createCannon("right", 675, 3000);
-createCannon("top", 100, 3000,);
-createCannon("top", 200, 3000,);
-createCannon("top", 300, 3000,);
-createCannon("top", 400, 3000,);
-createCannon("top", 500, 3000,);
-createCannon("top", 600, 3000,);
-createCannon("top", 700, 3000,);
-createCannon("top", 800, 3000,);
-createCannon("top", 900, 3000,);
-createCannon("top", 1000, 3000,);
-createCannon("top", 1100, 3000,);
-createCannon("top", 1200, 3000,);
-createCannon("top", 1300, 3000,);
-createCannon("right", 725, 1)
+createCannon("right", 675, 3500);
+createCannon("top", 100, 3500,);
+createCannon("top", 200, 3500,);
+createCannon("top", 300, 3500,);
+createCannon("top", 400, 3500,);
+createCannon("top", 500, 3500,);
+createCannon("top", 600, 3500,);
+createCannon("top", 700, 3500,);
+createCannon("top", 800, 3500,);
+createCannon("top", 900, 3500,);
+createCannon("top", 1000, 3500,);
+createCannon("top", 1100, 3500,);
+createCannon("top", 1200, 3500,);
+createCannon("top", 1300, 3500,);
+createCannon("right", 725, 0)
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////

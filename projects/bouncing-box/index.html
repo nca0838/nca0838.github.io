@@ -8,8 +8,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: yellow;
-			background-image: url(https://www.freeiconspng.com/thumbs/dvd-logo-png/dvd-logo-png-2.png);
+			background-color: honeydew;
 			background-size: 70px, 70px;
 			background-repeat: no-repeat;
 			font-size: 300%;
@@ -26,7 +25,7 @@
 			height: 100vh;
 		}
 	</style>
-	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+	 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
 
 </head>
 <body class="board">
@@ -47,7 +46,7 @@
 			var boardWidth = board.width();	// the maximum X-Coordinate of the scr
 			var boardHeight = board.height(); //the maximum height of the box
 			// Every 50 milliseconds, call the update Function (see below)
-			setInterval(update, 30);
+			setInterval(update, 16);
 			
 			// Every time the box is clicked, call the handleBoxClick Function (see below)
 			box.on('click', handleBoxClick);
@@ -74,6 +73,7 @@
 
 			var positionY = 300;
 			var speedY = 5;
+			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
@@ -85,21 +85,29 @@
 				if (positionX > 1300)
 				{
 					speed = speed * -1;
+					getRandomNumber;
+					box.css('background-color', colorStr);
 				}
 				
 				if (positionX < 0)
 				{
 					speed = speed * -1;
+					getRandomNumber;
+					box.css('background-color', colorStr);
 				}
 
-				if (positionY > 600)
+				if (positionY > 750)
 				{
 					speedY = speedY * -1;
+					getRandomNumber;
+					box.css('background-color', colorStr);
 				}
 				
 				if (positionY < 0)
 				{
 					speedY = speedY * -1;
+					getRandomNumber;
+					box.css('background-color', colorStr);
 				}
 
 
@@ -133,6 +141,7 @@
 					speedY -= 1;
 				}
 
+
 				// Change Point Value
 
 				
@@ -143,6 +152,26 @@
 
 
 			};
+
+			function getRandomNumber(){
+
+				var oneRandomNumberBetween0and250 = Math.random() * 255;
+				var twoRandomNumberBetween0and250 = Math.random() * 255;
+				var threeRandomNumberBetween0and250 = Math.random() * 255;
+
+				var colorStr = rgb(oneRandomNumberBetween0and250 + twoRandomNumberBetween0and250 + threeRandomNumberBetween0and250);
+
+
+
+
+
+
+
+
+			};
+
+
+			
 		})();
 	</script>
 </body>

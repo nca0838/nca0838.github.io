@@ -8,7 +8,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: honeydew;
+			background-color: white;
 			background-size: 70px, 70px;
 			background-repeat: no-repeat;
 			font-size: 300%;
@@ -85,35 +85,35 @@
 				if (positionX > 1300)
 				{
 					speed = speed * -1;
-					getRandomNumber;
-					box.css('background-color', colorStr);
+					getColor1();
+					
 				}
 				
 				if (positionX < 0)
 				{
 					speed = speed * -1;
-					getRandomNumber;
-					box.css('background-color', colorStr);
+					getColor2();
+					
 				}
 
 				if (positionY > 750)
 				{
 					speedY = speedY * -1;
-					getRandomNumber;
-					box.css('background-color', colorStr);
+					getColor3();
+			
 				}
 				
 				if (positionY < 0)
 				{
 					speedY = speedY * -1;
-					getRandomNumber;
-					box.css('background-color', colorStr);
+					getColor4();
+					
 				}
 
 
 				moveBoxTo(positionX, positionY);
 				//Change the value by 10
-
+				
 		};
 
 			/* 
@@ -153,20 +153,27 @@
 
 			};
 
-			function getRandomNumber(){
+			function getColor1(){
+				var color1 = "rgb(50, 25, 250)";
+				box.css('background-color', color1);
 
-				var oneRandomNumberBetween0and250 = Math.random() * 255;
-				var twoRandomNumberBetween0and250 = Math.random() * 255;
-				var threeRandomNumberBetween0and250 = Math.random() * 255;
+			};
 
-				var colorStr = rgb(oneRandomNumberBetween0and250 + twoRandomNumberBetween0and250 + threeRandomNumberBetween0and250);
+			function getColor2(){
+				var color2 = "rgb(244, 3, 252)";
+				box.css('background-color', color2);
 
+			};
 
+			function getColor3(){
+				var color3 = "rgb(252, 248, 3)";
+				box.css('background-color', color3);
 
+			};
 
-
-
-
+			function getColor4(){
+				var color4 = "rgb(252, 53, 3)";
+				box.css('background-color', color4);
 
 			};
 

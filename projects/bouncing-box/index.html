@@ -8,6 +8,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
+			background-image: url(https://cdn.forum.snap.berkeley.edu/original/2X/6/65137061474887dfa0f183f2bc118a3e52fc353e.gif);
 			background-color: white;
 			background-size: 70px, 70px;
 			background-repeat: no-repeat;
@@ -19,6 +20,9 @@
 			top: 100px;
 			left: 400px;  /* <--- Change me! */
 			/* Width and Height were both 70px */
+		
+
+			
 		}
 		.board{
 			background-color: black;
@@ -85,28 +89,29 @@
 				if (positionX > 1300)
 				{
 					speed = speed * -1;
-					getColor1();
+					getRandomColor();
+					
 					
 				}
 				
 				if (positionX < 0)
 				{
 					speed = speed * -1;
-					getColor2();
+					getRandomColor();
 					
 				}
 
 				if (positionY > 750)
 				{
 					speedY = speedY * -1;
-					getColor3();
-			
+					getRandomColor();
+					
 				}
 				
 				if (positionY < 0)
 				{
 					speedY = speedY * -1;
-					getColor4();
+					getRandomColor();
 					
 				}
 
@@ -140,6 +145,8 @@
 				{
 					speedY -= 1;
 				}
+
+				
 
 
 				// Change Point Value
@@ -176,6 +183,21 @@
 				box.css('background-color', color4);
 
 			};
+
+			function getRandomColor(){
+
+				var randomColor = Math.floor(Math.random() * 255);
+				var randomColor2 = Math.floor(Math.random() * 255);
+				var randomColor3 = Math.floor(Math.random() * 255);
+
+				var rgb = "rgb(" + randomColor + ", " + randomColor2 + ", " + randomColor3 + ")";
+				rgb.toString;
+				box.css('background-color', rgb)
+
+
+			}
+
+			
 
 
 			

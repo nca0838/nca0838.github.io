@@ -5,7 +5,7 @@ var row = 0; //current guess (attempt #)
 var col = 0; //current letter for that attempt
 
 var gameOver = false;
-var wordPicker = Math.floor(Math.random() * 52 + 1);
+var wordPicker = Math.floor(Math.random() * 99 + 1);
 if (wordPicker === 1){
   word = "ABOUT";
 } else if (wordPicker === 2){
@@ -110,6 +110,236 @@ if (wordPicker === 1){
   word = "ALARM"
 }else if (wordPicker === 52){
   word = "APPLY"
+}else if (wordPicker === 53){
+  word = "BASIC"
+}else if (wordPicker === 54){
+  word = "BLOOD"
+}else if (wordPicker === 55){
+  word = "ALBUM"
+}else if (wordPicker === 56){
+  word = "ARENA"
+}else if (wordPicker === 57){
+  word = "BASIS"
+}else if (wordPicker === 58){
+  word = "BOARD"
+}else if (wordPicker === 59){
+  word = "BOOST"
+}else if (wordPicker === 60){
+  word = "BUYER"
+}else if (wordPicker === 61){
+  word = "CHINA"
+}else if (wordPicker === 62){
+  word = "BOOTH"
+}else if (wordPicker === 63){
+  word = "CABLE"
+}else if (wordPicker === 64){
+  word = "CHOSE"
+}else if (wordPicker === 65){
+  word = "CRAFT"
+}else if (wordPicker === 66){
+  word = "BOUND"
+}else if (wordPicker === 67){
+  word = "CALIF"
+}else if (wordPicker === 68){
+  word = "CIVIL"
+}else if (wordPicker === 69){
+  word = "CRASH"
+}else if (wordPicker === 70){
+  word = "BRAIN"
+}else if (wordPicker === 71){
+  word = "CARRY"
+}else if (wordPicker === 72){
+  word = "CLAIM"
+}else if (wordPicker === 73){
+  word = "CREAM"
+}else if (wordPicker === 74){
+  word = "BRAND"
+}else if (wordPicker === 75){
+  word = "CATCH"
+}else if (wordPicker === 76){
+  word = "CLASS"
+}else if (wordPicker === 77){
+  word = "CRIME"
+}else if (wordPicker === 78){
+  word = "BREAD"
+}else if (wordPicker === 79){
+  word = "CAUSE"
+}else if (wordPicker === 80){
+  word = "CLEAN"
+}else if (wordPicker === 81){
+  word = "CROSS"
+}else if (wordPicker === 82){
+  word = "BREAK"
+}else if (wordPicker === 83){
+  word = "CHAIN"
+}else if (wordPicker === 84){
+  word = "CLEAR"
+}else if (wordPicker === 85){
+  word = "CROWD"
+}else if (wordPicker === 86){
+  word = "BREED"
+}else if (wordPicker === 87){
+  word = "CHAIR"
+}else if (wordPicker === 88){
+  word = "CLICK"
+}else if (wordPicker === 89){
+  word = "CROWN"
+}else if (wordPicker === 90){
+  word = "BRIEF"
+}else if (wordPicker === 91){
+  word = "CHART"
+}else if (wordPicker === 92){
+  word = "CLOCK"
+}else if (wordPicker === 93){
+  word = "CURVE"
+}else if (wordPicker === 94){
+  word = "BRING"
+}else if (wordPicker === 95){
+  word = "CHASE"
+}else if (wordPicker === 96){
+  word = "CLOSE"
+}else if (wordPicker === 97){
+  word = "CYCLE"
+}else if (wordPicker === 98){
+  word = "BROAD"
+}else if (wordPicker === 99){
+  word = "CHEAP"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
+}else if (wordPicker === 2){
+  word = "WATER"
 }
 var word;
 

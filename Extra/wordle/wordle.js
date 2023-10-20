@@ -8,9 +8,9 @@ var gameOver = false;
 var wordPicker = Math.floor(Math.random() * 99 + 1);
 if (wordPicker === 1){
   word = "ABOUT";
-} else if (wordPicker === 2){
+}else if (wordPicker === 2){
   word = "ALERT"
-} else if (wordPicker === 3){
+}else if (wordPicker === 3){
   word = "ARGUE"
 }else if (wordPicker === 4){
   word = "ALIKE"

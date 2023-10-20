@@ -49,8 +49,28 @@ body {
     background-color: green;
     color: white;
     border-color: white;
+    animation:  correctepic 1000ms infinite;
   }
-  
+  @keyframes correctepic{
+    05%{border-color:red}
+    10%{border-color:orangered}
+    15%{border-color:yellow}
+    20%{border-color:green}
+    25%{border-color:blue}
+    30%{border-color:purple}
+    35%{border-color:red}
+    40%{border-color:orangered}
+    45%{border-color:yellow}
+    50%{border-color:green}
+    55%{border-color:blue}
+    60%{border-color:purple}
+    65%{border-color:red}
+    70%{border-color:orangered}
+    75%{border-color:yellow}
+    80%{border-color:green}
+    85%{border-color:blue}
+    90%{border-color:purple}
+  }
   .present{
     
     background-color: yellow;

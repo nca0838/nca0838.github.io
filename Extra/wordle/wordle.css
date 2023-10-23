@@ -49,7 +49,7 @@ body {
     background-color: green;
     color: white;
     border-color: white;
-    animation:  correctepic 1000ms infinite;
+    /*animation:  correctepic 1000ms infinite; 
   }
   @keyframes correctepic{
     05%{border-color:red}
@@ -70,6 +70,7 @@ body {
     80%{border-color:green}
     85%{border-color:blue}
     90%{border-color:purple}
+    */
   }
   .present{
     
